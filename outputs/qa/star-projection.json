@@ -1,0 +1,4040 @@
+{
+  "scope": "Offline Three.js projection of actual generated geometry and shader transform math; not a browser screenshot, shader compilation test or GPU performance measurement.",
+  "sampleCount": 108,
+  "summary": [
+    {
+      "width": 375,
+      "height": 844,
+      "minVisible": 294,
+      "maxVisible": 312,
+      "minimumEdgeCount": 20,
+      "minimumQuadrantCount": 67,
+      "minimumGridCell": 6
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "minVisible": 1044,
+      "maxVisible": 1068,
+      "minimumEdgeCount": 102,
+      "minimumQuadrantCount": 233,
+      "minimumGridCell": 30
+    },
+    {
+      "width": 1280,
+      "height": 900,
+      "minVisible": 1534,
+      "maxVisible": 1567,
+      "minimumEdgeCount": 151,
+      "minimumQuadrantCount": 350,
+      "minimumGridCell": 43
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "minVisible": 2788,
+      "maxVisible": 2836,
+      "minimumEdgeCount": 271,
+      "minimumQuadrantCount": 684,
+      "minimumGridCell": 89
+    }
+  ],
+  "samples": [
+    {
+      "width": 375,
+      "height": 844,
+      "pointer": [
+        0,
+        0
+      ],
+      "elapsed": 0,
+      "visible": 304,
+      "layerCounts": {
+        "far": {
+          "requested": 253,
+          "visible": 167
+        },
+        "middle": {
+          "requested": 132,
+          "visible": 103
+        },
+        "near": {
+          "requested": 55,
+          "visible": 34
+        }
+      },
+      "edges": {
+        "left": 33,
+        "right": 33,
+        "top": 27,
+        "bottom": 37
+      },
+      "quadrants": [
+        75,
+        78,
+        68,
+        83
+      ],
+      "minimumGridCell": 6
+    },
+    {
+      "width": 375,
+      "height": 844,
+      "pointer": [
+        0,
+        0
+      ],
+      "elapsed": 300,
+      "visible": 305,
+      "layerCounts": {
+        "far": {
+          "requested": 253,
+          "visible": 167
+        },
+        "middle": {
+          "requested": 132,
+          "visible": 104
+        },
+        "near": {
+          "requested": 55,
+          "visible": 34
+        }
+      },
+      "edges": {
+        "left": 33,
+        "right": 33,
+        "top": 27,
+        "bottom": 37
+      },
+      "quadrants": [
+        76,
+        79,
+        67,
+        83
+      ],
+      "minimumGridCell": 6
+    },
+    {
+      "width": 375,
+      "height": 844,
+      "pointer": [
+        0,
+        0
+      ],
+      "elapsed": 3600,
+      "visible": 305,
+      "layerCounts": {
+        "far": {
+          "requested": 253,
+          "visible": 167
+        },
+        "middle": {
+          "requested": 132,
+          "visible": 103
+        },
+        "near": {
+          "requested": 55,
+          "visible": 35
+        }
+      },
+      "edges": {
+        "left": 34,
+        "right": 33,
+        "top": 27,
+        "bottom": 37
+      },
+      "quadrants": [
+        76,
+        78,
+        68,
+        83
+      ],
+      "minimumGridCell": 6
+    },
+    {
+      "width": 375,
+      "height": 844,
+      "pointer": [
+        -1,
+        -1
+      ],
+      "elapsed": 0,
+      "visible": 308,
+      "layerCounts": {
+        "far": {
+          "requested": 253,
+          "visible": 166
+        },
+        "middle": {
+          "requested": 132,
+          "visible": 106
+        },
+        "near": {
+          "requested": 55,
+          "visible": 36
+        }
+      },
+      "edges": {
+        "left": 35,
+        "right": 37,
+        "top": 25,
+        "bottom": 36
+      },
+      "quadrants": [
+        79,
+        78,
+        67,
+        84
+      ],
+      "minimumGridCell": 7
+    },
+    {
+      "width": 375,
+      "height": 844,
+      "pointer": [
+        -1,
+        -1
+      ],
+      "elapsed": 300,
+      "visible": 306,
+      "layerCounts": {
+        "far": {
+          "requested": 253,
+          "visible": 165
+        },
+        "middle": {
+          "requested": 132,
+          "visible": 104
+        },
+        "near": {
+          "requested": 55,
+          "visible": 37
+        }
+      },
+      "edges": {
+        "left": 34,
+        "right": 37,
+        "top": 25,
+        "bottom": 34
+      },
+      "quadrants": [
+        79,
+        79,
+        67,
+        81
+      ],
+      "minimumGridCell": 7
+    },
+    {
+      "width": 375,
+      "height": 844,
+      "pointer": [
+        -1,
+        -1
+      ],
+      "elapsed": 3600,
+      "visible": 308,
+      "layerCounts": {
+        "far": {
+          "requested": 253,
+          "visible": 166
+        },
+        "middle": {
+          "requested": 132,
+          "visible": 106
+        },
+        "near": {
+          "requested": 55,
+          "visible": 36
+        }
+      },
+      "edges": {
+        "left": 35,
+        "right": 37,
+        "top": 25,
+        "bottom": 37
+      },
+      "quadrants": [
+        79,
+        78,
+        67,
+        84
+      ],
+      "minimumGridCell": 7
+    },
+    {
+      "width": 375,
+      "height": 844,
+      "pointer": [
+        -1,
+        0
+      ],
+      "elapsed": 0,
+      "visible": 307,
+      "layerCounts": {
+        "far": {
+          "requested": 253,
+          "visible": 166
+        },
+        "middle": {
+          "requested": 132,
+          "visible": 105
+        },
+        "near": {
+          "requested": 55,
+          "visible": 36
+        }
+      },
+      "edges": {
+        "left": 35,
+        "right": 37,
+        "top": 28,
+        "bottom": 36
+      },
+      "quadrants": [
+        79,
+        77,
+        67,
+        84
+      ],
+      "minimumGridCell": 7
+    },
+    {
+      "width": 375,
+      "height": 844,
+      "pointer": [
+        -1,
+        0
+      ],
+      "elapsed": 300,
+      "visible": 309,
+      "layerCounts": {
+        "far": {
+          "requested": 253,
+          "visible": 166
+        },
+        "middle": {
+          "requested": 132,
+          "visible": 106
+        },
+        "near": {
+          "requested": 55,
+          "visible": 37
+        }
+      },
+      "edges": {
+        "left": 34,
+        "right": 38,
+        "top": 28,
+        "bottom": 35
+      },
+      "quadrants": [
+        79,
+        79,
+        67,
+        84
+      ],
+      "minimumGridCell": 7
+    },
+    {
+      "width": 375,
+      "height": 844,
+      "pointer": [
+        -1,
+        0
+      ],
+      "elapsed": 3600,
+      "visible": 307,
+      "layerCounts": {
+        "far": {
+          "requested": 253,
+          "visible": 166
+        },
+        "middle": {
+          "requested": 132,
+          "visible": 105
+        },
+        "near": {
+          "requested": 55,
+          "visible": 36
+        }
+      },
+      "edges": {
+        "left": 35,
+        "right": 37,
+        "top": 28,
+        "bottom": 36
+      },
+      "quadrants": [
+        79,
+        77,
+        67,
+        84
+      ],
+      "minimumGridCell": 7
+    },
+    {
+      "width": 375,
+      "height": 844,
+      "pointer": [
+        -1,
+        1
+      ],
+      "elapsed": 0,
+      "visible": 311,
+      "layerCounts": {
+        "far": {
+          "requested": 253,
+          "visible": 170
+        },
+        "middle": {
+          "requested": 132,
+          "visible": 104
+        },
+        "near": {
+          "requested": 55,
+          "visible": 37
+        }
+      },
+      "edges": {
+        "left": 34,
+        "right": 37,
+        "top": 30,
+        "bottom": 41
+      },
+      "quadrants": [
+        79,
+        81,
+        67,
+        84
+      ],
+      "minimumGridCell": 7
+    },
+    {
+      "width": 375,
+      "height": 844,
+      "pointer": [
+        -1,
+        1
+      ],
+      "elapsed": 300,
+      "visible": 312,
+      "layerCounts": {
+        "far": {
+          "requested": 253,
+          "visible": 170
+        },
+        "middle": {
+          "requested": 132,
+          "visible": 104
+        },
+        "near": {
+          "requested": 55,
+          "visible": 38
+        }
+      },
+      "edges": {
+        "left": 33,
+        "right": 38,
+        "top": 28,
+        "bottom": 42
+      },
+      "quadrants": [
+        78,
+        82,
+        68,
+        84
+      ],
+      "minimumGridCell": 8
+    },
+    {
+      "width": 375,
+      "height": 844,
+      "pointer": [
+        -1,
+        1
+      ],
+      "elapsed": 3600,
+      "visible": 312,
+      "layerCounts": {
+        "far": {
+          "requested": 253,
+          "visible": 171
+        },
+        "middle": {
+          "requested": 132,
+          "visible": 104
+        },
+        "near": {
+          "requested": 55,
+          "visible": 37
+        }
+      },
+      "edges": {
+        "left": 34,
+        "right": 37,
+        "top": 30,
+        "bottom": 42
+      },
+      "quadrants": [
+        79,
+        81,
+        68,
+        84
+      ],
+      "minimumGridCell": 8
+    },
+    {
+      "width": 375,
+      "height": 844,
+      "pointer": [
+        0,
+        -1
+      ],
+      "elapsed": 0,
+      "visible": 303,
+      "layerCounts": {
+        "far": {
+          "requested": 253,
+          "visible": 166
+        },
+        "middle": {
+          "requested": 132,
+          "visible": 104
+        },
+        "near": {
+          "requested": 55,
+          "visible": 33
+        }
+      },
+      "edges": {
+        "left": 32,
+        "right": 34,
+        "top": 23,
+        "bottom": 37
+      },
+      "quadrants": [
+        74,
+        79,
+        68,
+        82
+      ],
+      "minimumGridCell": 6
+    },
+    {
+      "width": 375,
+      "height": 844,
+      "pointer": [
+        0,
+        -1
+      ],
+      "elapsed": 300,
+      "visible": 300,
+      "layerCounts": {
+        "far": {
+          "requested": 253,
+          "visible": 165
+        },
+        "middle": {
+          "requested": 132,
+          "visible": 102
+        },
+        "near": {
+          "requested": 55,
+          "visible": 33
+        }
+      },
+      "edges": {
+        "left": 32,
+        "right": 33,
+        "top": 22,
+        "bottom": 35
+      },
+      "quadrants": [
+        75,
+        78,
+        67,
+        80
+      ],
+      "minimumGridCell": 6
+    },
+    {
+      "width": 375,
+      "height": 844,
+      "pointer": [
+        0,
+        -1
+      ],
+      "elapsed": 3600,
+      "visible": 304,
+      "layerCounts": {
+        "far": {
+          "requested": 253,
+          "visible": 166
+        },
+        "middle": {
+          "requested": 132,
+          "visible": 104
+        },
+        "near": {
+          "requested": 55,
+          "visible": 34
+        }
+      },
+      "edges": {
+        "left": 33,
+        "right": 34,
+        "top": 23,
+        "bottom": 37
+      },
+      "quadrants": [
+        75,
+        79,
+        68,
+        82
+      ],
+      "minimumGridCell": 6
+    },
+    {
+      "width": 375,
+      "height": 844,
+      "pointer": [
+        0,
+        1
+      ],
+      "elapsed": 0,
+      "visible": 307,
+      "layerCounts": {
+        "far": {
+          "requested": 253,
+          "visible": 170
+        },
+        "middle": {
+          "requested": 132,
+          "visible": 102
+        },
+        "near": {
+          "requested": 55,
+          "visible": 35
+        }
+      },
+      "edges": {
+        "left": 32,
+        "right": 33,
+        "top": 29,
+        "bottom": 41
+      },
+      "quadrants": [
+        75,
+        82,
+        68,
+        82
+      ],
+      "minimumGridCell": 8
+    },
+    {
+      "width": 375,
+      "height": 844,
+      "pointer": [
+        0,
+        1
+      ],
+      "elapsed": 300,
+      "visible": 309,
+      "layerCounts": {
+        "far": {
+          "requested": 253,
+          "visible": 171
+        },
+        "middle": {
+          "requested": 132,
+          "visible": 102
+        },
+        "near": {
+          "requested": 55,
+          "visible": 36
+        }
+      },
+      "edges": {
+        "left": 33,
+        "right": 33,
+        "top": 29,
+        "bottom": 42
+      },
+      "quadrants": [
+        77,
+        82,
+        68,
+        82
+      ],
+      "minimumGridCell": 8
+    },
+    {
+      "width": 375,
+      "height": 844,
+      "pointer": [
+        0,
+        1
+      ],
+      "elapsed": 3600,
+      "visible": 308,
+      "layerCounts": {
+        "far": {
+          "requested": 253,
+          "visible": 170
+        },
+        "middle": {
+          "requested": 132,
+          "visible": 102
+        },
+        "near": {
+          "requested": 55,
+          "visible": 36
+        }
+      },
+      "edges": {
+        "left": 33,
+        "right": 33,
+        "top": 29,
+        "bottom": 41
+      },
+      "quadrants": [
+        76,
+        82,
+        68,
+        82
+      ],
+      "minimumGridCell": 8
+    },
+    {
+      "width": 375,
+      "height": 844,
+      "pointer": [
+        1,
+        -1
+      ],
+      "elapsed": 0,
+      "visible": 298,
+      "layerCounts": {
+        "far": {
+          "requested": 253,
+          "visible": 166
+        },
+        "middle": {
+          "requested": 132,
+          "visible": 103
+        },
+        "near": {
+          "requested": 55,
+          "visible": 29
+        }
+      },
+      "edges": {
+        "left": 29,
+        "right": 34,
+        "top": 21,
+        "bottom": 37
+      },
+      "quadrants": [
+        72,
+        77,
+        70,
+        79
+      ],
+      "minimumGridCell": 7
+    },
+    {
+      "width": 375,
+      "height": 844,
+      "pointer": [
+        1,
+        -1
+      ],
+      "elapsed": 300,
+      "visible": 294,
+      "layerCounts": {
+        "far": {
+          "requested": 253,
+          "visible": 165
+        },
+        "middle": {
+          "requested": 132,
+          "visible": 100
+        },
+        "near": {
+          "requested": 55,
+          "visible": 29
+        }
+      },
+      "edges": {
+        "left": 28,
+        "right": 33,
+        "top": 21,
+        "bottom": 35
+      },
+      "quadrants": [
+        72,
+        76,
+        68,
+        78
+      ],
+      "minimumGridCell": 8
+    },
+    {
+      "width": 375,
+      "height": 844,
+      "pointer": [
+        1,
+        -1
+      ],
+      "elapsed": 3600,
+      "visible": 296,
+      "layerCounts": {
+        "far": {
+          "requested": 253,
+          "visible": 166
+        },
+        "middle": {
+          "requested": 132,
+          "visible": 101
+        },
+        "near": {
+          "requested": 55,
+          "visible": 29
+        }
+      },
+      "edges": {
+        "left": 28,
+        "right": 33,
+        "top": 20,
+        "bottom": 37
+      },
+      "quadrants": [
+        72,
+        75,
+        70,
+        79
+      ],
+      "minimumGridCell": 7
+    },
+    {
+      "width": 375,
+      "height": 844,
+      "pointer": [
+        1,
+        0
+      ],
+      "elapsed": 0,
+      "visible": 298,
+      "layerCounts": {
+        "far": {
+          "requested": 253,
+          "visible": 167
+        },
+        "middle": {
+          "requested": 132,
+          "visible": 101
+        },
+        "near": {
+          "requested": 55,
+          "visible": 30
+        }
+      },
+      "edges": {
+        "left": 30,
+        "right": 33,
+        "top": 25,
+        "bottom": 36
+      },
+      "quadrants": [
+        73,
+        76,
+        69,
+        80
+      ],
+      "minimumGridCell": 8
+    },
+    {
+      "width": 375,
+      "height": 844,
+      "pointer": [
+        1,
+        0
+      ],
+      "elapsed": 300,
+      "visible": 299,
+      "layerCounts": {
+        "far": {
+          "requested": 253,
+          "visible": 167
+        },
+        "middle": {
+          "requested": 132,
+          "visible": 101
+        },
+        "near": {
+          "requested": 55,
+          "visible": 31
+        }
+      },
+      "edges": {
+        "left": 29,
+        "right": 33,
+        "top": 26,
+        "bottom": 37
+      },
+      "quadrants": [
+        73,
+        77,
+        67,
+        82
+      ],
+      "minimumGridCell": 8
+    },
+    {
+      "width": 375,
+      "height": 844,
+      "pointer": [
+        1,
+        0
+      ],
+      "elapsed": 3600,
+      "visible": 297,
+      "layerCounts": {
+        "far": {
+          "requested": 253,
+          "visible": 167
+        },
+        "middle": {
+          "requested": 132,
+          "visible": 100
+        },
+        "near": {
+          "requested": 55,
+          "visible": 30
+        }
+      },
+      "edges": {
+        "left": 29,
+        "right": 33,
+        "top": 25,
+        "bottom": 36
+      },
+      "quadrants": [
+        73,
+        75,
+        69,
+        80
+      ],
+      "minimumGridCell": 7
+    },
+    {
+      "width": 375,
+      "height": 844,
+      "pointer": [
+        1,
+        1
+      ],
+      "elapsed": 0,
+      "visible": 302,
+      "layerCounts": {
+        "far": {
+          "requested": 253,
+          "visible": 170
+        },
+        "middle": {
+          "requested": 132,
+          "visible": 100
+        },
+        "near": {
+          "requested": 55,
+          "visible": 32
+        }
+      },
+      "edges": {
+        "left": 30,
+        "right": 33,
+        "top": 28,
+        "bottom": 40
+      },
+      "quadrants": [
+        75,
+        79,
+        69,
+        79
+      ],
+      "minimumGridCell": 7
+    },
+    {
+      "width": 375,
+      "height": 844,
+      "pointer": [
+        1,
+        1
+      ],
+      "elapsed": 300,
+      "visible": 304,
+      "layerCounts": {
+        "far": {
+          "requested": 253,
+          "visible": 171
+        },
+        "middle": {
+          "requested": 132,
+          "visible": 100
+        },
+        "near": {
+          "requested": 55,
+          "visible": 33
+        }
+      },
+      "edges": {
+        "left": 30,
+        "right": 33,
+        "top": 28,
+        "bottom": 42
+      },
+      "quadrants": [
+        75,
+        80,
+        69,
+        80
+      ],
+      "minimumGridCell": 7
+    },
+    {
+      "width": 375,
+      "height": 844,
+      "pointer": [
+        1,
+        1
+      ],
+      "elapsed": 3600,
+      "visible": 303,
+      "layerCounts": {
+        "far": {
+          "requested": 253,
+          "visible": 170
+        },
+        "middle": {
+          "requested": 132,
+          "visible": 100
+        },
+        "near": {
+          "requested": 55,
+          "visible": 33
+        }
+      },
+      "edges": {
+        "left": 30,
+        "right": 33,
+        "top": 28,
+        "bottom": 41
+      },
+      "quadrants": [
+        75,
+        79,
+        70,
+        79
+      ],
+      "minimumGridCell": 7
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "pointer": [
+        0,
+        0
+      ],
+      "elapsed": 0,
+      "visible": 1057,
+      "layerCounts": {
+        "far": {
+          "requested": 872,
+          "visible": 587
+        },
+        "middle": {
+          "requested": 455,
+          "visible": 343
+        },
+        "near": {
+          "requested": 190,
+          "visible": 127
+        }
+      },
+      "edges": {
+        "left": 108,
+        "right": 121,
+        "top": 105,
+        "bottom": 117
+      },
+      "quadrants": [
+        237,
+        269,
+        275,
+        276
+      ],
+      "minimumGridCell": 30
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "pointer": [
+        0,
+        0
+      ],
+      "elapsed": 300,
+      "visible": 1060,
+      "layerCounts": {
+        "far": {
+          "requested": 872,
+          "visible": 587
+        },
+        "middle": {
+          "requested": 455,
+          "visible": 345
+        },
+        "near": {
+          "requested": 190,
+          "visible": 128
+        }
+      },
+      "edges": {
+        "left": 111,
+        "right": 118,
+        "top": 103,
+        "bottom": 117
+      },
+      "quadrants": [
+        242,
+        268,
+        276,
+        274
+      ],
+      "minimumGridCell": 33
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "pointer": [
+        0,
+        0
+      ],
+      "elapsed": 3600,
+      "visible": 1058,
+      "layerCounts": {
+        "far": {
+          "requested": 872,
+          "visible": 587
+        },
+        "middle": {
+          "requested": 455,
+          "visible": 343
+        },
+        "near": {
+          "requested": 190,
+          "visible": 128
+        }
+      },
+      "edges": {
+        "left": 109,
+        "right": 122,
+        "top": 105,
+        "bottom": 117
+      },
+      "quadrants": [
+        238,
+        269,
+        275,
+        276
+      ],
+      "minimumGridCell": 31
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "pointer": [
+        -1,
+        -1
+      ],
+      "elapsed": 0,
+      "visible": 1067,
+      "layerCounts": {
+        "far": {
+          "requested": 872,
+          "visible": 592
+        },
+        "middle": {
+          "requested": 455,
+          "visible": 344
+        },
+        "near": {
+          "requested": 190,
+          "visible": 131
+        }
+      },
+      "edges": {
+        "left": 112,
+        "right": 130,
+        "top": 111,
+        "bottom": 112
+      },
+      "quadrants": [
+        245,
+        272,
+        277,
+        273
+      ],
+      "minimumGridCell": 35
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "pointer": [
+        -1,
+        -1
+      ],
+      "elapsed": 300,
+      "visible": 1066,
+      "layerCounts": {
+        "far": {
+          "requested": 872,
+          "visible": 590
+        },
+        "middle": {
+          "requested": 455,
+          "visible": 342
+        },
+        "near": {
+          "requested": 190,
+          "visible": 134
+        }
+      },
+      "edges": {
+        "left": 111,
+        "right": 130,
+        "top": 112,
+        "bottom": 111
+      },
+      "quadrants": [
+        244,
+        273,
+        277,
+        272
+      ],
+      "minimumGridCell": 34
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "pointer": [
+        -1,
+        -1
+      ],
+      "elapsed": 3600,
+      "visible": 1066,
+      "layerCounts": {
+        "far": {
+          "requested": 872,
+          "visible": 591
+        },
+        "middle": {
+          "requested": 455,
+          "visible": 344
+        },
+        "near": {
+          "requested": 190,
+          "visible": 131
+        }
+      },
+      "edges": {
+        "left": 111,
+        "right": 130,
+        "top": 111,
+        "bottom": 113
+      },
+      "quadrants": [
+        244,
+        272,
+        277,
+        273
+      ],
+      "minimumGridCell": 35
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "pointer": [
+        -1,
+        0
+      ],
+      "elapsed": 0,
+      "visible": 1068,
+      "layerCounts": {
+        "far": {
+          "requested": 872,
+          "visible": 592
+        },
+        "middle": {
+          "requested": 455,
+          "visible": 346
+        },
+        "near": {
+          "requested": 190,
+          "visible": 130
+        }
+      },
+      "edges": {
+        "left": 114,
+        "right": 130,
+        "top": 110,
+        "bottom": 116
+      },
+      "quadrants": [
+        246,
+        270,
+        278,
+        274
+      ],
+      "minimumGridCell": 34
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "pointer": [
+        -1,
+        0
+      ],
+      "elapsed": 300,
+      "visible": 1067,
+      "layerCounts": {
+        "far": {
+          "requested": 872,
+          "visible": 591
+        },
+        "middle": {
+          "requested": 455,
+          "visible": 346
+        },
+        "near": {
+          "requested": 190,
+          "visible": 130
+        }
+      },
+      "edges": {
+        "left": 113,
+        "right": 130,
+        "top": 108,
+        "bottom": 115
+      },
+      "quadrants": [
+        245,
+        269,
+        278,
+        275
+      ],
+      "minimumGridCell": 33
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "pointer": [
+        -1,
+        0
+      ],
+      "elapsed": 3600,
+      "visible": 1067,
+      "layerCounts": {
+        "far": {
+          "requested": 872,
+          "visible": 591
+        },
+        "middle": {
+          "requested": 455,
+          "visible": 346
+        },
+        "near": {
+          "requested": 190,
+          "visible": 130
+        }
+      },
+      "edges": {
+        "left": 113,
+        "right": 130,
+        "top": 110,
+        "bottom": 115
+      },
+      "quadrants": [
+        245,
+        270,
+        278,
+        274
+      ],
+      "minimumGridCell": 34
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "pointer": [
+        -1,
+        1
+      ],
+      "elapsed": 0,
+      "visible": 1063,
+      "layerCounts": {
+        "far": {
+          "requested": 872,
+          "visible": 594
+        },
+        "middle": {
+          "requested": 455,
+          "visible": 341
+        },
+        "near": {
+          "requested": 190,
+          "visible": 128
+        }
+      },
+      "edges": {
+        "left": 110,
+        "right": 127,
+        "top": 110,
+        "bottom": 119
+      },
+      "quadrants": [
+        245,
+        270,
+        279,
+        269
+      ],
+      "minimumGridCell": 33
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "pointer": [
+        -1,
+        1
+      ],
+      "elapsed": 300,
+      "visible": 1063,
+      "layerCounts": {
+        "far": {
+          "requested": 872,
+          "visible": 593
+        },
+        "middle": {
+          "requested": 455,
+          "visible": 342
+        },
+        "near": {
+          "requested": 190,
+          "visible": 128
+        }
+      },
+      "edges": {
+        "left": 109,
+        "right": 127,
+        "top": 108,
+        "bottom": 122
+      },
+      "quadrants": [
+        243,
+        269,
+        280,
+        271
+      ],
+      "minimumGridCell": 33
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "pointer": [
+        -1,
+        1
+      ],
+      "elapsed": 3600,
+      "visible": 1062,
+      "layerCounts": {
+        "far": {
+          "requested": 872,
+          "visible": 593
+        },
+        "middle": {
+          "requested": 455,
+          "visible": 341
+        },
+        "near": {
+          "requested": 190,
+          "visible": 128
+        }
+      },
+      "edges": {
+        "left": 109,
+        "right": 127,
+        "top": 109,
+        "bottom": 120
+      },
+      "quadrants": [
+        244,
+        269,
+        280,
+        269
+      ],
+      "minimumGridCell": 33
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "pointer": [
+        0,
+        -1
+      ],
+      "elapsed": 0,
+      "visible": 1055,
+      "layerCounts": {
+        "far": {
+          "requested": 872,
+          "visible": 586
+        },
+        "middle": {
+          "requested": 455,
+          "visible": 341
+        },
+        "near": {
+          "requested": 190,
+          "visible": 128
+        }
+      },
+      "edges": {
+        "left": 106,
+        "right": 122,
+        "top": 107,
+        "bottom": 114
+      },
+      "quadrants": [
+        237,
+        270,
+        274,
+        274
+      ],
+      "minimumGridCell": 30
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "pointer": [
+        0,
+        -1
+      ],
+      "elapsed": 300,
+      "visible": 1055,
+      "layerCounts": {
+        "far": {
+          "requested": 872,
+          "visible": 586
+        },
+        "middle": {
+          "requested": 455,
+          "visible": 340
+        },
+        "near": {
+          "requested": 190,
+          "visible": 129
+        }
+      },
+      "edges": {
+        "left": 108,
+        "right": 118,
+        "top": 106,
+        "bottom": 112
+      },
+      "quadrants": [
+        240,
+        268,
+        275,
+        272
+      ],
+      "minimumGridCell": 31
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "pointer": [
+        0,
+        -1
+      ],
+      "elapsed": 3600,
+      "visible": 1056,
+      "layerCounts": {
+        "far": {
+          "requested": 872,
+          "visible": 586
+        },
+        "middle": {
+          "requested": 455,
+          "visible": 341
+        },
+        "near": {
+          "requested": 190,
+          "visible": 129
+        }
+      },
+      "edges": {
+        "left": 107,
+        "right": 123,
+        "top": 107,
+        "bottom": 114
+      },
+      "quadrants": [
+        238,
+        270,
+        274,
+        274
+      ],
+      "minimumGridCell": 31
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "pointer": [
+        0,
+        1
+      ],
+      "elapsed": 0,
+      "visible": 1051,
+      "layerCounts": {
+        "far": {
+          "requested": 872,
+          "visible": 588
+        },
+        "middle": {
+          "requested": 455,
+          "visible": 338
+        },
+        "near": {
+          "requested": 190,
+          "visible": 125
+        }
+      },
+      "edges": {
+        "left": 104,
+        "right": 119,
+        "top": 107,
+        "bottom": 119
+      },
+      "quadrants": [
+        237,
+        268,
+        276,
+        270
+      ],
+      "minimumGridCell": 30
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "pointer": [
+        0,
+        1
+      ],
+      "elapsed": 300,
+      "visible": 1058,
+      "layerCounts": {
+        "far": {
+          "requested": 872,
+          "visible": 591
+        },
+        "middle": {
+          "requested": 455,
+          "visible": 340
+        },
+        "near": {
+          "requested": 190,
+          "visible": 127
+        }
+      },
+      "edges": {
+        "left": 107,
+        "right": 116,
+        "top": 107,
+        "bottom": 121
+      },
+      "quadrants": [
+        242,
+        267,
+        279,
+        270
+      ],
+      "minimumGridCell": 32
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "pointer": [
+        0,
+        1
+      ],
+      "elapsed": 3600,
+      "visible": 1052,
+      "layerCounts": {
+        "far": {
+          "requested": 872,
+          "visible": 588
+        },
+        "middle": {
+          "requested": 455,
+          "visible": 338
+        },
+        "near": {
+          "requested": 190,
+          "visible": 126
+        }
+      },
+      "edges": {
+        "left": 105,
+        "right": 120,
+        "top": 107,
+        "bottom": 119
+      },
+      "quadrants": [
+        238,
+        268,
+        276,
+        270
+      ],
+      "minimumGridCell": 31
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "pointer": [
+        1,
+        -1
+      ],
+      "elapsed": 0,
+      "visible": 1047,
+      "layerCounts": {
+        "far": {
+          "requested": 872,
+          "visible": 582
+        },
+        "middle": {
+          "requested": 455,
+          "visible": 345
+        },
+        "near": {
+          "requested": 190,
+          "visible": 120
+        }
+      },
+      "edges": {
+        "left": 104,
+        "right": 107,
+        "top": 105,
+        "bottom": 115
+      },
+      "quadrants": [
+        234,
+        269,
+        273,
+        271
+      ],
+      "minimumGridCell": 32
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "pointer": [
+        1,
+        -1
+      ],
+      "elapsed": 300,
+      "visible": 1044,
+      "layerCounts": {
+        "far": {
+          "requested": 872,
+          "visible": 581
+        },
+        "middle": {
+          "requested": 455,
+          "visible": 342
+        },
+        "near": {
+          "requested": 190,
+          "visible": 121
+        }
+      },
+      "edges": {
+        "left": 105,
+        "right": 105,
+        "top": 105,
+        "bottom": 112
+      },
+      "quadrants": [
+        234,
+        268,
+        273,
+        269
+      ],
+      "minimumGridCell": 33
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "pointer": [
+        1,
+        -1
+      ],
+      "elapsed": 3600,
+      "visible": 1044,
+      "layerCounts": {
+        "far": {
+          "requested": 872,
+          "visible": 582
+        },
+        "middle": {
+          "requested": 455,
+          "visible": 343
+        },
+        "near": {
+          "requested": 190,
+          "visible": 119
+        }
+      },
+      "edges": {
+        "left": 104,
+        "right": 105,
+        "top": 104,
+        "bottom": 115
+      },
+      "quadrants": [
+        233,
+        266,
+        274,
+        271
+      ],
+      "minimumGridCell": 32
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "pointer": [
+        1,
+        0
+      ],
+      "elapsed": 0,
+      "visible": 1046,
+      "layerCounts": {
+        "far": {
+          "requested": 872,
+          "visible": 582
+        },
+        "middle": {
+          "requested": 455,
+          "visible": 345
+        },
+        "near": {
+          "requested": 190,
+          "visible": 119
+        }
+      },
+      "edges": {
+        "left": 106,
+        "right": 105,
+        "top": 103,
+        "bottom": 115
+      },
+      "quadrants": [
+        235,
+        268,
+        273,
+        270
+      ],
+      "minimumGridCell": 33
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "pointer": [
+        1,
+        0
+      ],
+      "elapsed": 300,
+      "visible": 1048,
+      "layerCounts": {
+        "far": {
+          "requested": 872,
+          "visible": 582
+        },
+        "middle": {
+          "requested": 455,
+          "visible": 345
+        },
+        "near": {
+          "requested": 190,
+          "visible": 121
+        }
+      },
+      "edges": {
+        "left": 108,
+        "right": 104,
+        "top": 103,
+        "bottom": 117
+      },
+      "quadrants": [
+        235,
+        266,
+        274,
+        273
+      ],
+      "minimumGridCell": 35
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "pointer": [
+        1,
+        0
+      ],
+      "elapsed": 3600,
+      "visible": 1044,
+      "layerCounts": {
+        "far": {
+          "requested": 872,
+          "visible": 582
+        },
+        "middle": {
+          "requested": 455,
+          "visible": 344
+        },
+        "near": {
+          "requested": 190,
+          "visible": 118
+        }
+      },
+      "edges": {
+        "left": 106,
+        "right": 104,
+        "top": 102,
+        "bottom": 115
+      },
+      "quadrants": [
+        235,
+        266,
+        273,
+        270
+      ],
+      "minimumGridCell": 34
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "pointer": [
+        1,
+        1
+      ],
+      "elapsed": 0,
+      "visible": 1045,
+      "layerCounts": {
+        "far": {
+          "requested": 872,
+          "visible": 584
+        },
+        "middle": {
+          "requested": 455,
+          "visible": 340
+        },
+        "near": {
+          "requested": 190,
+          "visible": 121
+        }
+      },
+      "edges": {
+        "left": 105,
+        "right": 105,
+        "top": 107,
+        "bottom": 118
+      },
+      "quadrants": [
+        235,
+        265,
+        277,
+        268
+      ],
+      "minimumGridCell": 30
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "pointer": [
+        1,
+        1
+      ],
+      "elapsed": 300,
+      "visible": 1049,
+      "layerCounts": {
+        "far": {
+          "requested": 872,
+          "visible": 585
+        },
+        "middle": {
+          "requested": 455,
+          "visible": 342
+        },
+        "near": {
+          "requested": 190,
+          "visible": 122
+        }
+      },
+      "edges": {
+        "left": 107,
+        "right": 104,
+        "top": 107,
+        "bottom": 121
+      },
+      "quadrants": [
+        237,
+        266,
+        278,
+        268
+      ],
+      "minimumGridCell": 32
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "pointer": [
+        1,
+        1
+      ],
+      "elapsed": 3600,
+      "visible": 1045,
+      "layerCounts": {
+        "far": {
+          "requested": 872,
+          "visible": 584
+        },
+        "middle": {
+          "requested": 455,
+          "visible": 340
+        },
+        "near": {
+          "requested": 190,
+          "visible": 121
+        }
+      },
+      "edges": {
+        "left": 106,
+        "right": 104,
+        "top": 106,
+        "bottom": 119
+      },
+      "quadrants": [
+        236,
+        264,
+        277,
+        268
+      ],
+      "minimumGridCell": 30
+    },
+    {
+      "width": 1280,
+      "height": 900,
+      "pointer": [
+        0,
+        0
+      ],
+      "elapsed": 0,
+      "visible": 1547,
+      "layerCounts": {
+        "far": {
+          "requested": 1278,
+          "visible": 862
+        },
+        "middle": {
+          "requested": 667,
+          "visible": 499
+        },
+        "near": {
+          "requested": 278,
+          "visible": 186
+        }
+      },
+      "edges": {
+        "left": 155,
+        "right": 170,
+        "top": 155,
+        "bottom": 172
+      },
+      "quadrants": [
+        354,
+        391,
+        402,
+        400
+      ],
+      "minimumGridCell": 43
+    },
+    {
+      "width": 1280,
+      "height": 900,
+      "pointer": [
+        0,
+        0
+      ],
+      "elapsed": 300,
+      "visible": 1548,
+      "layerCounts": {
+        "far": {
+          "requested": 1278,
+          "visible": 861
+        },
+        "middle": {
+          "requested": 667,
+          "visible": 501
+        },
+        "near": {
+          "requested": 278,
+          "visible": 186
+        }
+      },
+      "edges": {
+        "left": 158,
+        "right": 167,
+        "top": 153,
+        "bottom": 171
+      },
+      "quadrants": [
+        357,
+        389,
+        404,
+        398
+      ],
+      "minimumGridCell": 46
+    },
+    {
+      "width": 1280,
+      "height": 900,
+      "pointer": [
+        0,
+        0
+      ],
+      "elapsed": 3600,
+      "visible": 1548,
+      "layerCounts": {
+        "far": {
+          "requested": 1278,
+          "visible": 862
+        },
+        "middle": {
+          "requested": 667,
+          "visible": 499
+        },
+        "near": {
+          "requested": 278,
+          "visible": 187
+        }
+      },
+      "edges": {
+        "left": 156,
+        "right": 171,
+        "top": 155,
+        "bottom": 172
+      },
+      "quadrants": [
+        355,
+        391,
+        402,
+        400
+      ],
+      "minimumGridCell": 44
+    },
+    {
+      "width": 1280,
+      "height": 900,
+      "pointer": [
+        -1,
+        -1
+      ],
+      "elapsed": 0,
+      "visible": 1565,
+      "layerCounts": {
+        "far": {
+          "requested": 1278,
+          "visible": 869
+        },
+        "middle": {
+          "requested": 667,
+          "visible": 505
+        },
+        "near": {
+          "requested": 278,
+          "visible": 191
+        }
+      },
+      "edges": {
+        "left": 165,
+        "right": 178,
+        "top": 167,
+        "bottom": 158
+      },
+      "quadrants": [
+        372,
+        399,
+        398,
+        396
+      ],
+      "minimumGridCell": 52
+    },
+    {
+      "width": 1280,
+      "height": 900,
+      "pointer": [
+        -1,
+        -1
+      ],
+      "elapsed": 300,
+      "visible": 1567,
+      "layerCounts": {
+        "far": {
+          "requested": 1278,
+          "visible": 867
+        },
+        "middle": {
+          "requested": 667,
+          "visible": 505
+        },
+        "near": {
+          "requested": 278,
+          "visible": 195
+        }
+      },
+      "edges": {
+        "left": 163,
+        "right": 179,
+        "top": 170,
+        "bottom": 161
+      },
+      "quadrants": [
+        370,
+        400,
+        399,
+        398
+      ],
+      "minimumGridCell": 49
+    },
+    {
+      "width": 1280,
+      "height": 900,
+      "pointer": [
+        -1,
+        -1
+      ],
+      "elapsed": 3600,
+      "visible": 1565,
+      "layerCounts": {
+        "far": {
+          "requested": 1278,
+          "visible": 869
+        },
+        "middle": {
+          "requested": 667,
+          "visible": 505
+        },
+        "near": {
+          "requested": 278,
+          "visible": 191
+        }
+      },
+      "edges": {
+        "left": 164,
+        "right": 179,
+        "top": 168,
+        "bottom": 160
+      },
+      "quadrants": [
+        371,
+        399,
+        398,
+        397
+      ],
+      "minimumGridCell": 52
+    },
+    {
+      "width": 1280,
+      "height": 900,
+      "pointer": [
+        -1,
+        0
+      ],
+      "elapsed": 0,
+      "visible": 1567,
+      "layerCounts": {
+        "far": {
+          "requested": 1278,
+          "visible": 869
+        },
+        "middle": {
+          "requested": 667,
+          "visible": 507
+        },
+        "near": {
+          "requested": 278,
+          "visible": 191
+        }
+      },
+      "edges": {
+        "left": 167,
+        "right": 176,
+        "top": 162,
+        "bottom": 173
+      },
+      "quadrants": [
+        368,
+        396,
+        406,
+        397
+      ],
+      "minimumGridCell": 50
+    },
+    {
+      "width": 1280,
+      "height": 900,
+      "pointer": [
+        -1,
+        0
+      ],
+      "elapsed": 300,
+      "visible": 1564,
+      "layerCounts": {
+        "far": {
+          "requested": 1278,
+          "visible": 865
+        },
+        "middle": {
+          "requested": 667,
+          "visible": 508
+        },
+        "near": {
+          "requested": 278,
+          "visible": 191
+        }
+      },
+      "edges": {
+        "left": 166,
+        "right": 177,
+        "top": 161,
+        "bottom": 170
+      },
+      "quadrants": [
+        367,
+        393,
+        405,
+        399
+      ],
+      "minimumGridCell": 48
+    },
+    {
+      "width": 1280,
+      "height": 900,
+      "pointer": [
+        -1,
+        0
+      ],
+      "elapsed": 3600,
+      "visible": 1566,
+      "layerCounts": {
+        "far": {
+          "requested": 1278,
+          "visible": 867
+        },
+        "middle": {
+          "requested": 667,
+          "visible": 508
+        },
+        "near": {
+          "requested": 278,
+          "visible": 191
+        }
+      },
+      "edges": {
+        "left": 166,
+        "right": 177,
+        "top": 163,
+        "bottom": 171
+      },
+      "quadrants": [
+        367,
+        397,
+        405,
+        397
+      ],
+      "minimumGridCell": 50
+    },
+    {
+      "width": 1280,
+      "height": 900,
+      "pointer": [
+        -1,
+        1
+      ],
+      "elapsed": 0,
+      "visible": 1561,
+      "layerCounts": {
+        "far": {
+          "requested": 1278,
+          "visible": 874
+        },
+        "middle": {
+          "requested": 667,
+          "visible": 499
+        },
+        "near": {
+          "requested": 278,
+          "visible": 188
+        }
+      },
+      "edges": {
+        "left": 164,
+        "right": 172,
+        "top": 164,
+        "bottom": 179
+      },
+      "quadrants": [
+        363,
+        393,
+        410,
+        395
+      ],
+      "minimumGridCell": 50
+    },
+    {
+      "width": 1280,
+      "height": 900,
+      "pointer": [
+        -1,
+        1
+      ],
+      "elapsed": 300,
+      "visible": 1560,
+      "layerCounts": {
+        "far": {
+          "requested": 1278,
+          "visible": 872
+        },
+        "middle": {
+          "requested": 667,
+          "visible": 500
+        },
+        "near": {
+          "requested": 278,
+          "visible": 188
+        }
+      },
+      "edges": {
+        "left": 163,
+        "right": 173,
+        "top": 162,
+        "bottom": 182
+      },
+      "quadrants": [
+        360,
+        391,
+        411,
+        398
+      ],
+      "minimumGridCell": 49
+    },
+    {
+      "width": 1280,
+      "height": 900,
+      "pointer": [
+        -1,
+        1
+      ],
+      "elapsed": 3600,
+      "visible": 1560,
+      "layerCounts": {
+        "far": {
+          "requested": 1278,
+          "visible": 873
+        },
+        "middle": {
+          "requested": 667,
+          "visible": 499
+        },
+        "near": {
+          "requested": 278,
+          "visible": 188
+        }
+      },
+      "edges": {
+        "left": 163,
+        "right": 173,
+        "top": 164,
+        "bottom": 180
+      },
+      "quadrants": [
+        362,
+        392,
+        411,
+        395
+      ],
+      "minimumGridCell": 50
+    },
+    {
+      "width": 1280,
+      "height": 900,
+      "pointer": [
+        0,
+        -1
+      ],
+      "elapsed": 0,
+      "visible": 1546,
+      "layerCounts": {
+        "far": {
+          "requested": 1278,
+          "visible": 862
+        },
+        "middle": {
+          "requested": 667,
+          "visible": 498
+        },
+        "near": {
+          "requested": 278,
+          "visible": 186
+        }
+      },
+      "edges": {
+        "left": 154,
+        "right": 172,
+        "top": 161,
+        "bottom": 161
+      },
+      "quadrants": [
+        358,
+        394,
+        395,
+        399
+      ],
+      "minimumGridCell": 43
+    },
+    {
+      "width": 1280,
+      "height": 900,
+      "pointer": [
+        0,
+        -1
+      ],
+      "elapsed": 300,
+      "visible": 1548,
+      "layerCounts": {
+        "far": {
+          "requested": 1278,
+          "visible": 862
+        },
+        "middle": {
+          "requested": 667,
+          "visible": 500
+        },
+        "near": {
+          "requested": 278,
+          "visible": 186
+        }
+      },
+      "edges": {
+        "left": 156,
+        "right": 168,
+        "top": 162,
+        "bottom": 161
+      },
+      "quadrants": [
+        360,
+        392,
+        399,
+        397
+      ],
+      "minimumGridCell": 44
+    },
+    {
+      "width": 1280,
+      "height": 900,
+      "pointer": [
+        0,
+        -1
+      ],
+      "elapsed": 3600,
+      "visible": 1547,
+      "layerCounts": {
+        "far": {
+          "requested": 1278,
+          "visible": 862
+        },
+        "middle": {
+          "requested": 667,
+          "visible": 498
+        },
+        "near": {
+          "requested": 278,
+          "visible": 187
+        }
+      },
+      "edges": {
+        "left": 155,
+        "right": 173,
+        "top": 161,
+        "bottom": 161
+      },
+      "quadrants": [
+        359,
+        394,
+        395,
+        399
+      ],
+      "minimumGridCell": 44
+    },
+    {
+      "width": 1280,
+      "height": 900,
+      "pointer": [
+        0,
+        1
+      ],
+      "elapsed": 0,
+      "visible": 1543,
+      "layerCounts": {
+        "far": {
+          "requested": 1278,
+          "visible": 867
+        },
+        "middle": {
+          "requested": 667,
+          "visible": 492
+        },
+        "near": {
+          "requested": 278,
+          "visible": 184
+        }
+      },
+      "edges": {
+        "left": 153,
+        "right": 169,
+        "top": 160,
+        "bottom": 180
+      },
+      "quadrants": [
+        351,
+        388,
+        407,
+        397
+      ],
+      "minimumGridCell": 43
+    },
+    {
+      "width": 1280,
+      "height": 900,
+      "pointer": [
+        0,
+        1
+      ],
+      "elapsed": 300,
+      "visible": 1550,
+      "layerCounts": {
+        "far": {
+          "requested": 1278,
+          "visible": 870
+        },
+        "middle": {
+          "requested": 667,
+          "visible": 495
+        },
+        "near": {
+          "requested": 278,
+          "visible": 185
+        }
+      },
+      "edges": {
+        "left": 155,
+        "right": 166,
+        "top": 158,
+        "bottom": 182
+      },
+      "quadrants": [
+        354,
+        387,
+        411,
+        398
+      ],
+      "minimumGridCell": 45
+    },
+    {
+      "width": 1280,
+      "height": 900,
+      "pointer": [
+        0,
+        1
+      ],
+      "elapsed": 3600,
+      "visible": 1544,
+      "layerCounts": {
+        "far": {
+          "requested": 1278,
+          "visible": 867
+        },
+        "middle": {
+          "requested": 667,
+          "visible": 492
+        },
+        "near": {
+          "requested": 278,
+          "visible": 185
+        }
+      },
+      "edges": {
+        "left": 154,
+        "right": 170,
+        "top": 160,
+        "bottom": 180
+      },
+      "quadrants": [
+        352,
+        388,
+        407,
+        397
+      ],
+      "minimumGridCell": 44
+    },
+    {
+      "width": 1280,
+      "height": 900,
+      "pointer": [
+        1,
+        -1
+      ],
+      "elapsed": 0,
+      "visible": 1537,
+      "layerCounts": {
+        "far": {
+          "requested": 1278,
+          "visible": 857
+        },
+        "middle": {
+          "requested": 667,
+          "visible": 502
+        },
+        "near": {
+          "requested": 278,
+          "visible": 178
+        }
+      },
+      "edges": {
+        "left": 153,
+        "right": 155,
+        "top": 156,
+        "bottom": 160
+      },
+      "quadrants": [
+        356,
+        395,
+        393,
+        393
+      ],
+      "minimumGridCell": 47
+    },
+    {
+      "width": 1280,
+      "height": 900,
+      "pointer": [
+        1,
+        -1
+      ],
+      "elapsed": 300,
+      "visible": 1538,
+      "layerCounts": {
+        "far": {
+          "requested": 1278,
+          "visible": 857
+        },
+        "middle": {
+          "requested": 667,
+          "visible": 501
+        },
+        "near": {
+          "requested": 278,
+          "visible": 180
+        }
+      },
+      "edges": {
+        "left": 154,
+        "right": 154,
+        "top": 159,
+        "bottom": 159
+      },
+      "quadrants": [
+        358,
+        393,
+        397,
+        390
+      ],
+      "minimumGridCell": 48
+    },
+    {
+      "width": 1280,
+      "height": 900,
+      "pointer": [
+        1,
+        -1
+      ],
+      "elapsed": 3600,
+      "visible": 1535,
+      "layerCounts": {
+        "far": {
+          "requested": 1278,
+          "visible": 857
+        },
+        "middle": {
+          "requested": 667,
+          "visible": 500
+        },
+        "near": {
+          "requested": 278,
+          "visible": 178
+        }
+      },
+      "edges": {
+        "left": 153,
+        "right": 153,
+        "top": 155,
+        "bottom": 161
+      },
+      "quadrants": [
+        356,
+        391,
+        395,
+        393
+      ],
+      "minimumGridCell": 47
+    },
+    {
+      "width": 1280,
+      "height": 900,
+      "pointer": [
+        1,
+        0
+      ],
+      "elapsed": 0,
+      "visible": 1536,
+      "layerCounts": {
+        "far": {
+          "requested": 1278,
+          "visible": 857
+        },
+        "middle": {
+          "requested": 667,
+          "visible": 500
+        },
+        "near": {
+          "requested": 278,
+          "visible": 179
+        }
+      },
+      "edges": {
+        "left": 154,
+        "right": 154,
+        "top": 152,
+        "bottom": 167
+      },
+      "quadrants": [
+        354,
+        392,
+        398,
+        392
+      ],
+      "minimumGridCell": 47
+    },
+    {
+      "width": 1280,
+      "height": 900,
+      "pointer": [
+        1,
+        0
+      ],
+      "elapsed": 300,
+      "visible": 1537,
+      "layerCounts": {
+        "far": {
+          "requested": 1278,
+          "visible": 856
+        },
+        "middle": {
+          "requested": 667,
+          "visible": 500
+        },
+        "near": {
+          "requested": 278,
+          "visible": 181
+        }
+      },
+      "edges": {
+        "left": 156,
+        "right": 153,
+        "top": 153,
+        "bottom": 168
+      },
+      "quadrants": [
+        354,
+        388,
+        401,
+        394
+      ],
+      "minimumGridCell": 50
+    },
+    {
+      "width": 1280,
+      "height": 900,
+      "pointer": [
+        1,
+        0
+      ],
+      "elapsed": 3600,
+      "visible": 1534,
+      "layerCounts": {
+        "far": {
+          "requested": 1278,
+          "visible": 857
+        },
+        "middle": {
+          "requested": 667,
+          "visible": 499
+        },
+        "near": {
+          "requested": 278,
+          "visible": 178
+        }
+      },
+      "edges": {
+        "left": 154,
+        "right": 153,
+        "top": 151,
+        "bottom": 167
+      },
+      "quadrants": [
+        355,
+        389,
+        398,
+        392
+      ],
+      "minimumGridCell": 49
+    },
+    {
+      "width": 1280,
+      "height": 900,
+      "pointer": [
+        1,
+        1
+      ],
+      "elapsed": 0,
+      "visible": 1538,
+      "layerCounts": {
+        "far": {
+          "requested": 1278,
+          "visible": 863
+        },
+        "middle": {
+          "requested": 667,
+          "visible": 494
+        },
+        "near": {
+          "requested": 278,
+          "visible": 181
+        }
+      },
+      "edges": {
+        "left": 155,
+        "right": 155,
+        "top": 159,
+        "bottom": 176
+      },
+      "quadrants": [
+        350,
+        388,
+        407,
+        393
+      ],
+      "minimumGridCell": 44
+    },
+    {
+      "width": 1280,
+      "height": 900,
+      "pointer": [
+        1,
+        1
+      ],
+      "elapsed": 300,
+      "visible": 1543,
+      "layerCounts": {
+        "far": {
+          "requested": 1278,
+          "visible": 864
+        },
+        "middle": {
+          "requested": 667,
+          "visible": 496
+        },
+        "near": {
+          "requested": 278,
+          "visible": 183
+        }
+      },
+      "edges": {
+        "left": 157,
+        "right": 154,
+        "top": 160,
+        "bottom": 181
+      },
+      "quadrants": [
+        354,
+        387,
+        408,
+        394
+      ],
+      "minimumGridCell": 46
+    },
+    {
+      "width": 1280,
+      "height": 900,
+      "pointer": [
+        1,
+        1
+      ],
+      "elapsed": 3600,
+      "visible": 1539,
+      "layerCounts": {
+        "far": {
+          "requested": 1278,
+          "visible": 863
+        },
+        "middle": {
+          "requested": 667,
+          "visible": 494
+        },
+        "near": {
+          "requested": 278,
+          "visible": 182
+        }
+      },
+      "edges": {
+        "left": 156,
+        "right": 154,
+        "top": 158,
+        "bottom": 178
+      },
+      "quadrants": [
+        352,
+        386,
+        407,
+        394
+      ],
+      "minimumGridCell": 44
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "pointer": [
+        0,
+        0
+      ],
+      "elapsed": 0,
+      "visible": 2815,
+      "layerCounts": {
+        "far": {
+          "requested": 2300,
+          "visible": 1604
+        },
+        "middle": {
+          "requested": 1200,
+          "visible": 867
+        },
+        "near": {
+          "requested": 500,
+          "visible": 344
+        }
+      },
+      "edges": {
+        "left": 301,
+        "right": 298,
+        "top": 280,
+        "bottom": 295
+      },
+      "quadrants": [
+        690,
+        702,
+        702,
+        721
+      ],
+      "minimumGridCell": 98
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "pointer": [
+        0,
+        0
+      ],
+      "elapsed": 300,
+      "visible": 2810,
+      "layerCounts": {
+        "far": {
+          "requested": 2300,
+          "visible": 1600
+        },
+        "middle": {
+          "requested": 1200,
+          "visible": 867
+        },
+        "near": {
+          "requested": 500,
+          "visible": 343
+        }
+      },
+      "edges": {
+        "left": 299,
+        "right": 295,
+        "top": 278,
+        "bottom": 294
+      },
+      "quadrants": [
+        690,
+        700,
+        702,
+        718
+      ],
+      "minimumGridCell": 99
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "pointer": [
+        0,
+        0
+      ],
+      "elapsed": 3600,
+      "visible": 2815,
+      "layerCounts": {
+        "far": {
+          "requested": 2300,
+          "visible": 1604
+        },
+        "middle": {
+          "requested": 1200,
+          "visible": 867
+        },
+        "near": {
+          "requested": 500,
+          "visible": 344
+        }
+      },
+      "edges": {
+        "left": 301,
+        "right": 300,
+        "top": 280,
+        "bottom": 294
+      },
+      "quadrants": [
+        692,
+        701,
+        702,
+        720
+      ],
+      "minimumGridCell": 98
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "pointer": [
+        -1,
+        -1
+      ],
+      "elapsed": 0,
+      "visible": 2821,
+      "layerCounts": {
+        "far": {
+          "requested": 2300,
+          "visible": 1602
+        },
+        "middle": {
+          "requested": 1200,
+          "visible": 873
+        },
+        "near": {
+          "requested": 500,
+          "visible": 346
+        }
+      },
+      "edges": {
+        "left": 302,
+        "right": 305,
+        "top": 280,
+        "bottom": 283
+      },
+      "quadrants": [
+        701,
+        715,
+        698,
+        707
+      ],
+      "minimumGridCell": 93
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "pointer": [
+        -1,
+        -1
+      ],
+      "elapsed": 300,
+      "visible": 2829,
+      "layerCounts": {
+        "far": {
+          "requested": 2300,
+          "visible": 1602
+        },
+        "middle": {
+          "requested": 1200,
+          "visible": 873
+        },
+        "near": {
+          "requested": 500,
+          "visible": 354
+        }
+      },
+      "edges": {
+        "left": 305,
+        "right": 308,
+        "top": 287,
+        "bottom": 287
+      },
+      "quadrants": [
+        701,
+        716,
+        704,
+        708
+      ],
+      "minimumGridCell": 89
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "pointer": [
+        -1,
+        -1
+      ],
+      "elapsed": 3600,
+      "visible": 2820,
+      "layerCounts": {
+        "far": {
+          "requested": 2300,
+          "visible": 1601
+        },
+        "middle": {
+          "requested": 1200,
+          "visible": 873
+        },
+        "near": {
+          "requested": 500,
+          "visible": 346
+        }
+      },
+      "edges": {
+        "left": 302,
+        "right": 305,
+        "top": 281,
+        "bottom": 285
+      },
+      "quadrants": [
+        700,
+        715,
+        698,
+        707
+      ],
+      "minimumGridCell": 93
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "pointer": [
+        -1,
+        0
+      ],
+      "elapsed": 0,
+      "visible": 2836,
+      "layerCounts": {
+        "far": {
+          "requested": 2300,
+          "visible": 1608
+        },
+        "middle": {
+          "requested": 1200,
+          "visible": 877
+        },
+        "near": {
+          "requested": 500,
+          "visible": 351
+        }
+      },
+      "edges": {
+        "left": 307,
+        "right": 300,
+        "top": 286,
+        "bottom": 298
+      },
+      "quadrants": [
+        703,
+        714,
+        708,
+        711
+      ],
+      "minimumGridCell": 99
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "pointer": [
+        -1,
+        0
+      ],
+      "elapsed": 300,
+      "visible": 2829,
+      "layerCounts": {
+        "far": {
+          "requested": 2300,
+          "visible": 1603
+        },
+        "middle": {
+          "requested": 1200,
+          "visible": 875
+        },
+        "near": {
+          "requested": 500,
+          "visible": 351
+        }
+      },
+      "edges": {
+        "left": 309,
+        "right": 304,
+        "top": 286,
+        "bottom": 290
+      },
+      "quadrants": [
+        703,
+        710,
+        709,
+        707
+      ],
+      "minimumGridCell": 95
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "pointer": [
+        -1,
+        0
+      ],
+      "elapsed": 3600,
+      "visible": 2832,
+      "layerCounts": {
+        "far": {
+          "requested": 2300,
+          "visible": 1605
+        },
+        "middle": {
+          "requested": 1200,
+          "visible": 877
+        },
+        "near": {
+          "requested": 500,
+          "visible": 350
+        }
+      },
+      "edges": {
+        "left": 306,
+        "right": 301,
+        "top": 287,
+        "bottom": 294
+      },
+      "quadrants": [
+        702,
+        715,
+        706,
+        709
+      ],
+      "minimumGridCell": 100
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "pointer": [
+        -1,
+        1
+      ],
+      "elapsed": 0,
+      "visible": 2820,
+      "layerCounts": {
+        "far": {
+          "requested": 2300,
+          "visible": 1609
+        },
+        "middle": {
+          "requested": 1200,
+          "visible": 871
+        },
+        "near": {
+          "requested": 500,
+          "visible": 340
+        }
+      },
+      "edges": {
+        "left": 302,
+        "right": 294,
+        "top": 288,
+        "bottom": 301
+      },
+      "quadrants": [
+        697,
+        706,
+        705,
+        712
+      ],
+      "minimumGridCell": 102
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "pointer": [
+        -1,
+        1
+      ],
+      "elapsed": 300,
+      "visible": 2826,
+      "layerCounts": {
+        "far": {
+          "requested": 2300,
+          "visible": 1608
+        },
+        "middle": {
+          "requested": 1200,
+          "visible": 873
+        },
+        "near": {
+          "requested": 500,
+          "visible": 345
+        }
+      },
+      "edges": {
+        "left": 305,
+        "right": 298,
+        "top": 285,
+        "bottom": 306
+      },
+      "quadrants": [
+        696,
+        703,
+        709,
+        718
+      ],
+      "minimumGridCell": 101
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "pointer": [
+        -1,
+        1
+      ],
+      "elapsed": 3600,
+      "visible": 2817,
+      "layerCounts": {
+        "far": {
+          "requested": 2300,
+          "visible": 1607
+        },
+        "middle": {
+          "requested": 1200,
+          "visible": 870
+        },
+        "near": {
+          "requested": 500,
+          "visible": 340
+        }
+      },
+      "edges": {
+        "left": 302,
+        "right": 295,
+        "top": 286,
+        "bottom": 302
+      },
+      "quadrants": [
+        696,
+        704,
+        706,
+        711
+      ],
+      "minimumGridCell": 102
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "pointer": [
+        0,
+        -1
+      ],
+      "elapsed": 0,
+      "visible": 2806,
+      "layerCounts": {
+        "far": {
+          "requested": 2300,
+          "visible": 1599
+        },
+        "middle": {
+          "requested": 1200,
+          "visible": 865
+        },
+        "near": {
+          "requested": 500,
+          "visible": 342
+        }
+      },
+      "edges": {
+        "left": 300,
+        "right": 301,
+        "top": 277,
+        "bottom": 286
+      },
+      "quadrants": [
+        689,
+        703,
+        695,
+        719
+      ],
+      "minimumGridCell": 95
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "pointer": [
+        0,
+        -1
+      ],
+      "elapsed": 300,
+      "visible": 2803,
+      "layerCounts": {
+        "far": {
+          "requested": 2300,
+          "visible": 1597
+        },
+        "middle": {
+          "requested": 1200,
+          "visible": 865
+        },
+        "near": {
+          "requested": 500,
+          "visible": 341
+        }
+      },
+      "edges": {
+        "left": 296,
+        "right": 298,
+        "top": 278,
+        "bottom": 283
+      },
+      "quadrants": [
+        688,
+        702,
+        699,
+        714
+      ],
+      "minimumGridCell": 95
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "pointer": [
+        0,
+        -1
+      ],
+      "elapsed": 3600,
+      "visible": 2807,
+      "layerCounts": {
+        "far": {
+          "requested": 2300,
+          "visible": 1599
+        },
+        "middle": {
+          "requested": 1200,
+          "visible": 865
+        },
+        "near": {
+          "requested": 500,
+          "visible": 343
+        }
+      },
+      "edges": {
+        "left": 300,
+        "right": 303,
+        "top": 277,
+        "bottom": 286
+      },
+      "quadrants": [
+        690,
+        703,
+        696,
+        718
+      ],
+      "minimumGridCell": 95
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "pointer": [
+        0,
+        1
+      ],
+      "elapsed": 0,
+      "visible": 2805,
+      "layerCounts": {
+        "far": {
+          "requested": 2300,
+          "visible": 1606
+        },
+        "middle": {
+          "requested": 1200,
+          "visible": 863
+        },
+        "near": {
+          "requested": 500,
+          "visible": 336
+        }
+      },
+      "edges": {
+        "left": 298,
+        "right": 298,
+        "top": 286,
+        "bottom": 301
+      },
+      "quadrants": [
+        687,
+        696,
+        701,
+        721
+      ],
+      "minimumGridCell": 103
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "pointer": [
+        0,
+        1
+      ],
+      "elapsed": 300,
+      "visible": 2811,
+      "layerCounts": {
+        "far": {
+          "requested": 2300,
+          "visible": 1607
+        },
+        "middle": {
+          "requested": 1200,
+          "visible": 865
+        },
+        "near": {
+          "requested": 500,
+          "visible": 339
+        }
+      },
+      "edges": {
+        "left": 295,
+        "right": 295,
+        "top": 283,
+        "bottom": 305
+      },
+      "quadrants": [
+        688,
+        695,
+        703,
+        725
+      ],
+      "minimumGridCell": 102
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "pointer": [
+        0,
+        1
+      ],
+      "elapsed": 3600,
+      "visible": 2804,
+      "layerCounts": {
+        "far": {
+          "requested": 2300,
+          "visible": 1605
+        },
+        "middle": {
+          "requested": 1200,
+          "visible": 862
+        },
+        "near": {
+          "requested": 500,
+          "visible": 337
+        }
+      },
+      "edges": {
+        "left": 298,
+        "right": 300,
+        "top": 285,
+        "bottom": 300
+      },
+      "quadrants": [
+        688,
+        695,
+        701,
+        720
+      ],
+      "minimumGridCell": 103
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "pointer": [
+        1,
+        -1
+      ],
+      "elapsed": 0,
+      "visible": 2789,
+      "layerCounts": {
+        "far": {
+          "requested": 2300,
+          "visible": 1595
+        },
+        "middle": {
+          "requested": 1200,
+          "visible": 862
+        },
+        "near": {
+          "requested": 500,
+          "visible": 332
+        }
+      },
+      "edges": {
+        "left": 296,
+        "right": 291,
+        "top": 271,
+        "bottom": 284
+      },
+      "quadrants": [
+        690,
+        695,
+        690,
+        714
+      ],
+      "minimumGridCell": 101
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "pointer": [
+        1,
+        -1
+      ],
+      "elapsed": 300,
+      "visible": 2788,
+      "layerCounts": {
+        "far": {
+          "requested": 2300,
+          "visible": 1592
+        },
+        "middle": {
+          "requested": 1200,
+          "visible": 862
+        },
+        "near": {
+          "requested": 500,
+          "visible": 334
+        }
+      },
+      "edges": {
+        "left": 296,
+        "right": 284,
+        "top": 274,
+        "bottom": 282
+      },
+      "quadrants": [
+        691,
+        693,
+        696,
+        708
+      ],
+      "minimumGridCell": 101
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "pointer": [
+        1,
+        -1
+      ],
+      "elapsed": 3600,
+      "visible": 2788,
+      "layerCounts": {
+        "far": {
+          "requested": 2300,
+          "visible": 1595
+        },
+        "middle": {
+          "requested": 1200,
+          "visible": 860
+        },
+        "near": {
+          "requested": 500,
+          "visible": 333
+        }
+      },
+      "edges": {
+        "left": 296,
+        "right": 288,
+        "top": 271,
+        "bottom": 286
+      },
+      "quadrants": [
+        691,
+        691,
+        692,
+        714
+      ],
+      "minimumGridCell": 100
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "pointer": [
+        1,
+        0
+      ],
+      "elapsed": 0,
+      "visible": 2797,
+      "layerCounts": {
+        "far": {
+          "requested": 2300,
+          "visible": 1600
+        },
+        "middle": {
+          "requested": 1200,
+          "visible": 861
+        },
+        "near": {
+          "requested": 500,
+          "visible": 336
+        }
+      },
+      "edges": {
+        "left": 298,
+        "right": 289,
+        "top": 277,
+        "bottom": 288
+      },
+      "quadrants": [
+        693,
+        694,
+        695,
+        715
+      ],
+      "minimumGridCell": 97
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "pointer": [
+        1,
+        0
+      ],
+      "elapsed": 300,
+      "visible": 2795,
+      "layerCounts": {
+        "far": {
+          "requested": 2300,
+          "visible": 1595
+        },
+        "middle": {
+          "requested": 1200,
+          "visible": 864
+        },
+        "near": {
+          "requested": 500,
+          "visible": 336
+        }
+      },
+      "edges": {
+        "left": 299,
+        "right": 282,
+        "top": 276,
+        "bottom": 290
+      },
+      "quadrants": [
+        692,
+        690,
+        697,
+        716
+      ],
+      "minimumGridCell": 99
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "pointer": [
+        1,
+        0
+      ],
+      "elapsed": 3600,
+      "visible": 2795,
+      "layerCounts": {
+        "far": {
+          "requested": 2300,
+          "visible": 1600
+        },
+        "middle": {
+          "requested": 1200,
+          "visible": 860
+        },
+        "near": {
+          "requested": 500,
+          "visible": 335
+        }
+      },
+      "edges": {
+        "left": 298,
+        "right": 287,
+        "top": 276,
+        "bottom": 289
+      },
+      "quadrants": [
+        694,
+        691,
+        695,
+        715
+      ],
+      "minimumGridCell": 96
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "pointer": [
+        1,
+        1
+      ],
+      "elapsed": 0,
+      "visible": 2794,
+      "layerCounts": {
+        "far": {
+          "requested": 2300,
+          "visible": 1605
+        },
+        "middle": {
+          "requested": 1200,
+          "visible": 858
+        },
+        "near": {
+          "requested": 500,
+          "visible": 331
+        }
+      },
+      "edges": {
+        "left": 298,
+        "right": 290,
+        "top": 286,
+        "bottom": 297
+      },
+      "quadrants": [
+        689,
+        686,
+        697,
+        722
+      ],
+      "minimumGridCell": 97
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "pointer": [
+        1,
+        1
+      ],
+      "elapsed": 300,
+      "visible": 2795,
+      "layerCounts": {
+        "far": {
+          "requested": 2300,
+          "visible": 1601
+        },
+        "middle": {
+          "requested": 1200,
+          "visible": 861
+        },
+        "near": {
+          "requested": 500,
+          "visible": 333
+        }
+      },
+      "edges": {
+        "left": 299,
+        "right": 284,
+        "top": 285,
+        "bottom": 300
+      },
+      "quadrants": [
+        692,
+        685,
+        697,
+        721
+      ],
+      "minimumGridCell": 98
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "pointer": [
+        1,
+        1
+      ],
+      "elapsed": 3600,
+      "visible": 2795,
+      "layerCounts": {
+        "far": {
+          "requested": 2300,
+          "visible": 1605
+        },
+        "middle": {
+          "requested": 1200,
+          "visible": 858
+        },
+        "near": {
+          "requested": 500,
+          "visible": 332
+        }
+      },
+      "edges": {
+        "left": 299,
+        "right": 288,
+        "top": 285,
+        "bottom": 299
+      },
+      "quadrants": [
+        691,
+        684,
+        697,
+        723
+      ],
+      "minimumGridCell": 98
+    }
+  ]
+}
