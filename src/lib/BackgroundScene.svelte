@@ -3,12 +3,12 @@
   import { T, useTask, useThrelte } from '@threlte/core';
   import { createStarField, getStarDrawCount, type StarFieldSettings } from './star-field';
   import {
-    AdditiveBlending,
     BufferAttribute,
     BufferGeometry,
     CatmullRomCurve3,
     Color,
     NoBlending,
+    NormalBlending,
     ShaderMaterial,
     SphereGeometry,
     TubeGeometry,
@@ -28,10 +28,10 @@
     onready?: (renderer: WebGLRenderer, scene: Scene, camera: Camera) => void;
   }
 
-  let { color = '#5eead4', playing = false, variant = 'orbit', onready }: Props = $props();
+  let { color = '#d4512d', playing = false, variant = 'orbit', onready }: Props = $props();
 
   const { renderer, scene, size, invalidate } = useThrelte();
-  const background = new Color('#070b16');
+  const background = new Color('#faf9f7');
   const pointer = new Vector2();
   const pointerTarget = new Vector2();
   const drawingBufferSize = new Vector2();
@@ -91,11 +91,13 @@
       float streak = exp(-travel * 28.0);
       float fine = pow(0.5 + 0.5 * sin(vUv.x * 301.59 - uTime * 2.0), 5.0);
       float pulse = 0.82 + 0.18 * sin(uTime * 1.1 + uOffset * 6.28);
-      vec3 accent = mix(uColor, vec3(0.52, 0.37, 1.0), 0.19 + uOffset * 0.28);
-      vec3 light = mix(accent, vec3(0.85, 1.0, 1.0), streak * 0.85);
-      float strength = 0.30 + streak * 1.75 + fine * 0.12;
-      float alpha = mix(0.82, facing * 0.20, uGlow) * pulse;
-      gl_FragColor = vec4(light * strength * mix(1.4, 0.75, uGlow), alpha);
+      vec3 ember = vec3(0.84, 0.22, 0.09);
+      vec3 accent = mix(uColor, ember, 0.24 + uOffset * 0.18);
+      vec3 base = mix(vec3(0.13, 0.105, 0.09), accent, 0.38);
+      vec3 light = mix(base, vec3(1.0, 0.72, 0.49), streak * 0.72);
+      float strength = 0.18 + streak * 1.15 + fine * 0.07;
+      float alpha = mix(0.48, facing * 0.14, uGlow) * pulse;
+      gl_FragColor = vec4(light * strength * mix(1.0, 0.58, uGlow), alpha);
       #include <colorspace_fragment>
     }
   `;
@@ -106,13 +108,13 @@
       vertexShader,
       fragmentShader,
       transparent: true,
-      blending: AdditiveBlending,
+      blending: NormalBlending,
       depthWrite: false,
       toneMapped: false,
     });
   }
 
-  const colorUniform = () => ({ value: new Color('#5eead4') });
+  const colorUniform = () => ({ value: new Color('#d4512d') });
   const timeUniform = () => ({ value: 0 });
   const ringMaterials = Array.from({ length: 3 }, (_, index) => [0, 1].map((glow) => shader(tubeFragment, {
     uTime: timeUniform(),
@@ -120,7 +122,10 @@
     uOffset: { value: index * 0.29 },
     uSpeed: { value: 0.12 + index * 0.038 },
     uGlow: { value: glow },
-  })));
+  }))).map(([core, glow]) => {
+    core.blending = NormalBlending;
+    return [core, glow];
+  });
 
   const coreMaterial = shader(`
     uniform float uTime;
@@ -134,12 +139,14 @@
       float bands = pow(0.5 + 0.5 * sin(vLocal.y * 19.0 + angle * 4.0 - uTime * 0.9
         + sin(vLocal.x * 8.0 + uTime * 0.35)), 5.0);
       float pulse = 0.83 + 0.17 * sin(uTime * 1.15);
-      vec3 energy = mix(uColor, vec3(0.72, 0.93, 1.0), rim * 0.68);
-      gl_FragColor = vec4(energy * (0.28 + rim * 1.8 + bands * 0.42) * pulse,
-        0.10 + rim * 0.85 + bands * 0.16);
+      vec3 ember = mix(uColor, vec3(0.86, 0.24, 0.10), 0.34);
+      vec3 energy = mix(vec3(0.12, 0.095, 0.08), ember, 0.26 + rim * 0.58);
+      gl_FragColor = vec4(energy * (0.44 + rim * 1.05 + bands * 0.28) * pulse,
+        0.18 + rim * 0.68 + bands * 0.10);
       #include <colorspace_fragment>
     }
   `, { uTime: timeUniform(), uColor: colorUniform() });
+  coreMaterial.blending = NormalBlending;
 
   const haloMaterial = shader(`
     uniform float uTime;
@@ -149,7 +156,7 @@
       float radius = length(vUv - 0.5) * 2.0;
       float glow = exp(-radius * radius * 8.0);
       float pulse = 0.75 + 0.25 * sin(uTime * 1.15);
-      gl_FragColor = vec4(uColor * 0.6, glow * 0.16 * pulse);
+      gl_FragColor = vec4(uColor * 0.42, glow * 0.09 * pulse);
       #include <colorspace_fragment>
     }
   `, { uTime: timeUniform(), uColor: colorUniform() });
@@ -163,10 +170,11 @@
     void main() {
       vec2 p = (vUv - 0.5) * vec2(3.6, 2.6);
       float mist = cloud(p * 3.0 + vec2(uTime * 0.007, -uTime * 0.004));
-      float teal = exp(-length((p - vec2(0.28, -0.06)) * vec2(1.3, 1.6)) * 2.6);
-      float violet = exp(-length((p - vec2(0.9, 0.4)) * vec2(1.2, 1.5)) * 2.0);
-      vec3 atmosphere = uBase + uColor * teal * mist * 0.028
-        + vec3(0.09, 0.025, 0.19) * violet * mist * 0.10;
+      float ember = exp(-length((p - vec2(0.28, -0.06)) * vec2(1.3, 1.6)) * 2.6);
+      float charcoal = exp(-length((p - vec2(0.9, 0.4)) * vec2(1.2, 1.5)) * 2.0);
+      vec3 atmosphere = uBase + uColor * ember * mist * 0.022
+        + vec3(0.54, 0.16, 0.06) * ember * mist * 0.035
+        - vec3(0.08, 0.055, 0.04) * charcoal * mist * 0.025;
       gl_FragColor = vec4(atmosphere, 1.0);
       #include <colorspace_fragment>
     }
@@ -212,15 +220,16 @@
       if (distanceToCenter > 1.0) discard;
       float glow = exp(-distanceToCenter * distanceToCenter * 5.0);
       float pin = pow(max(1.0 - distanceToCenter, 0.0), 10.0);
-      vec3 tint = mix(uColor, vec3(0.38, 0.44, 1.0), step(0.66, vSeed) * 0.7);
-      tint = mix(tint, vec3(0.78, 0.87, 1.0), (1.0 - uOrbit) * 0.75);
-      gl_FragColor = vec4(tint * (0.7 + pin * 1.8), glow * vOpacity * mix(0.65, 1.0, uOrbit));
+      vec3 tint = mix(uColor, vec3(0.82, 0.20, 0.07), step(0.66, vSeed) * 0.42);
+      tint = mix(tint, vec3(0.20, 0.16, 0.13), (1.0 - uOrbit) * 0.28);
+      gl_FragColor = vec4(tint * (0.52 + pin * 1.22), glow * vOpacity * mix(0.36, 0.72, uOrbit));
       #include <colorspace_fragment>
     }
   `;
   const particleMaterial = shader(pointsFragment, {
     uTime: timeUniform(), uColor: colorUniform(), uDpr: { value: 1.5 }, uVariant: { value: 0 }, uOrbit: { value: 1 },
   }, pointsVertex);
+  particleMaterial.blending = NormalBlending;
   const starsVertex = `
     uniform float uTime;
     uniform float uDpr;
@@ -268,26 +277,26 @@
         + exp(-abs(p.y) * 34.0 - abs(p.x) * 4.8);
       float fade = 1.0 - smoothstep(0.80, 1.0, max(abs(p.x), abs(p.y)));
       float alpha = (glow * 0.75 + pin * 0.45 + cross * vSparkle * 0.38) * fade;
-      vec3 tint = mix(vec3(0.68, 0.79, 1.0), vec3(0.95, 0.97, 1.0), vSeed);
-      tint = mix(tint, uColor, 0.12);
-      gl_FragColor = vec4(tint * (0.85 + pin * 0.8), min(alpha * vOpacity, 1.0));
+      vec3 tint = mix(vec3(0.18, 0.14, 0.11), vec3(0.92, 0.46, 0.23), vSeed);
+      tint = mix(tint, uColor, 0.18);
+      gl_FragColor = vec4(tint * (0.56 + pin * 0.62), min(alpha * vOpacity, 0.72));
       #include <colorspace_fragment>
     }
   `;
   const starConfigs: (StarFieldSettings & { name: string; parallax: number; opacity: number })[] = [
-    { name: 'far', count: 2300, seed: 113, depth: [48, 78], size: [0.8, 1.5], sparkle: 0, parallax: 0.018, opacity: 0.55 },
-    { name: 'middle', count: 1200, seed: 277, depth: [18, 44], size: [1.15, 2.8], sparkle: 0.004, parallax: 0.046, opacity: 0.8 },
-    { name: 'near', count: 500, seed: 419, depth: [3, 14], size: [1.9, 4.8], sparkle: 0.06, parallax: 0.095, opacity: 0.95 },
+    { name: 'far', count: 2300, seed: 113, depth: [48, 78], size: [0.8, 1.5], sparkle: 0, parallax: 0.018, opacity: 0.22 },
+    { name: 'middle', count: 1200, seed: 277, depth: [18, 44], size: [1.15, 2.8], sparkle: 0.004, parallax: 0.046, opacity: 0.34 },
+    { name: 'near', count: 500, seed: 419, depth: [3, 14], size: [1.9, 4.8], sparkle: 0.06, parallax: 0.095, opacity: 0.46 },
   ];
-  const starLayers = starConfigs.map((config) => ({
-    ...config,
-    geometry: createStarField(config),
-    material: shader(starsFragment, {
+  const starLayers = starConfigs.map((config) => {
+    const material = shader(starsFragment, {
       uTime: timeUniform(), uColor: colorUniform(), uDpr: { value: 1.5 },
       uAspect: { value: 1 }, uCameraDistance: { value: 11.5 },
       uPointer: { value: pointer }, uParallax: { value: config.parallax }, uOpacity: { value: config.opacity },
-    }, starsVertex),
-  }));
+    }, starsVertex);
+    material.blending = NormalBlending;
+    return { ...config, geometry: createStarField(config), material };
+  });
   const materials = [...ringMaterials.flat(), coreMaterial, haloMaterial, nebulaMaterial, particleMaterial,
     ...starLayers.map((layer) => layer.material)];
 
